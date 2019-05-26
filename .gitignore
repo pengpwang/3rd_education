@@ -2,7 +2,6 @@
 .DS_Store
 .idea/
 dist/
-client/build
 
 
 # Logs
