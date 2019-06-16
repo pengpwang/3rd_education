@@ -1,6 +1,6 @@
-# 3rd_education
+# client
 
-> This is a 3rd project, named 3rd_eduction.for the better world ~
+> My astounding Nuxt.js project
 
 ## Build Setup
 
