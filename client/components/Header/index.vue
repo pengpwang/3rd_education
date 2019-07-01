@@ -18,14 +18,14 @@
         </div>
       </div>
       <ul class="header-c-b">
-        <li class="header-c-b_item active">官网首页</li>
-        <li class="header-c-b_item">师资介绍</li>
-        <li class="header-c-b_item">课程介绍</li>
-        <li class="header-c-b_item">考试资讯</li>
-        <li class="header-c-b_item">政策动态</li>
-        <li class="header-c-b_item">资料下载</li>
-        <li class="header-c-b_item">猎头顾问</li>
-        <li class="header-c-b_item">联系我们</li>
+        <nuxt-link to="/" class="header-c-b_item active">官网首页</nuxt-link>
+        <nuxt-link to="/teacherIntroduce" class="header-c-b_item">师资介绍</nuxt-link>
+        <nuxt-link to="/courseIntroduce" class="header-c-b_item">课程介绍</nuxt-link>
+        <nuxt-link to="/examInfomation" class="header-c-b_item">考试资讯</nuxt-link>
+        <nuxt-link to="/policyTrends" class="header-c-b_item">政策动态</nuxt-link>
+        <nuxt-link to="/download" class="header-c-b_item">资料下载</nuxt-link>
+        <nuxt-link to="/consultant" class="header-c-b_item">猎头顾问</nuxt-link>
+        <nuxt-link to="/contactUs" class="header-c-b_item">联系我们</nuxt-link>
       </ul>
     </div>
   </header>
@@ -40,8 +40,8 @@ export default {
 <style scoped>
 .Header{
   width: 1200px;
-  height: 154px;
-  position: absolute;
+  height: 128px;
+  position: relative;
   left: 50%;
   margin-left: -600px;
 }
@@ -140,6 +140,10 @@ export default {
 .header-c-b_item.active{
   color: rgb(109, 32, 128);
   border-bottom: 4px solid rgb(109, 32, 128);
+}
+
+a{
+  text-decoration: none;
 }
 
 </style>

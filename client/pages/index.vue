@@ -211,7 +211,6 @@ export default {
 
 <style scoped>
 .container{
-  padding-top: 128px;
   position: relative;
 }
 
